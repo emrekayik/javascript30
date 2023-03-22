@@ -1,0 +1,48 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF2CC;
+    color: #2C3333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+.title{
+    margin-top: 36px;
+}
+.title h1{
+    font-weight: 400;
+}
+
+.harfler{
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+.harf{
+    background: #2C3333;
+    color: #FFF2CC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    padding: 12px;
+    transition: 200ms;
+}
+.scale{
+    scale: 1.2;
+    transition: 200ms;
+}
+.harf p{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
